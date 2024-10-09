@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all {
+    width: 1080px;
+    height: 1080px;
+    top:0;
+    left: 0;
+    z-index: 0;
+    position: relative;
+}
+
+.all .hedder {
+    width:50%;
+    height: 5%;
+    display: flex;
+    top: 0;
+    position: absolute;
+    z-index: 2;  
+}
+
+.all .hedder .logo {
+    width: 150px;
+    height: 50px;
+    margin-top: 3%;
+    margin-left: 3%;
+    z-index: 1;  
+}
+
+.all .hedder .logo img {
+    width: 150px;
+    height: 50px;
+    z-index: 1;
+}
+
+.all .hedder .info {
+    width:50%;
+    height: 5%;
+    margin-top: 4%;
+    margin-left: 8%;
+    z-index: 1;
+}
+
+
+.all .main {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;  
+}
+
+.main .title {
+    width: 1080px;
+    height: 100px;
+    position: absolute;
+    top: 80px;
+    z-index: 1;  
+}
+
+.all .main .title  h1 {
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    font-size: 4.6rem;
+    color: #c05f1a;
+    background: rgb(252, 226, 231);
+    margin-left: 260px;
+    text-align: center;
+    border-radius: 71.5px;
+}
+
+.all .main .img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.all .main .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.all .main .point {
+    width: 100%;
+    height: 250px;
+    position: absolute;
+}
+
+.all .main .point h1 {
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top:220px;
+    margin-left: 50px;
+    font-size: 16.0rem;
+    z-index: 1;
+    color: #37DD5B;
+    text-shadow: 10px 20px 10px rgba(25, 114, 45, 0.7);
+}
+
+.all .main .camp {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    color: #c05f1a;
+}
+
+.all .main .camp h2 {
+    width: 44%;
+    height: 60px;
+    position: absolute;
+    top:580px;
+    padding-left: 2.2%;
+    margin-left: 100px;
+    background: rgb(252, 226, 231);
+    border-radius: 10px;
+    font-size: 3.0rem;
+    z-index: 1;
+}
+
+.all .fotter {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 1030px;
+    background: rgb(252, 226, 231);
+    z-index: 1;
+}
+
+.all .fotter h2 {
+    padding-top: 8px;
+    margin-left: 600px;
+    color: #c05f1a;
+}
